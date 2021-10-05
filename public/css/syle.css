@@ -94,3 +94,12 @@ footer{
 .Error{
     font-size: 65px;
 }
+
+.index_text{
+    line-height: 1.6;
+    /* letter-spacing: 2px; */
+    max-width: 75vw;
+    margin: 10px auto;
+    margin-top: 300px;
+    font-size: 35px;
+}

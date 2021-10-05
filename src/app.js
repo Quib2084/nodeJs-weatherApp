@@ -4,6 +4,7 @@ const hbs = require('hbs')
 const request = require('request')
 
 const app = express()
+const port = process.env.PORT || 3000
 
 const rootDirectory = path.join(__dirname, '..')
 const viewsPath = path.join(__dirname, '../templates/views')
@@ -72,4 +73,4 @@ app.get('*', (req, res) => {
   res.render('404')
 })
 
-app.listen(8080)
+app.listen(port)

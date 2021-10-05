@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;600&display=swap');
+
+body{
+    font-family: 'Spartan', serif;
+    display: flex;
+    justify-content: fl;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(173, 209, 174);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    transition: background-color 0.5s ease;
+}
+
+
+.title{
+    margin-top: 200px;
+    text-transform: capitalize;
+}
+
+.container{
+    width: 70vw;
+    margin: 150px auto;
+    font-size: 35px;
+    font-style: bold;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+.portrait {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height: auto;;
+    background-position: center top;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px #333,
+    -3px -3px 5px #333;
+    transition: transform 0.7s ease;
+}
+
+.portrait-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.portrait-div .portrait:hover{
+    transform: scale(1.1);
+}
+
+.portrait-div p{
+    text-align: center;
+}
+
+.data ul{
+    list-style: none;
+    margin-top: 50px;
+    position: relative;
+    left: -45px;
+}
+
+.textBox, .button{
+    border: none;
+    border-radius: 3px;
+    font-size: 25px;
+    padding: 10px;
+    margin-right: 10px;
+    transition: transform ease-in;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+
+form, .data{
+    font-size: 40px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+footer{
+    font-size: 25px;
+}
+
+.Error{
+    font-size: 65px;
+}
